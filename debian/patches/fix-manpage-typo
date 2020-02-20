@@ -1,0 +1,27 @@
+Description: fix manpage typo
+ s/modifcation/modification/g
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2020-02-20
+
+--- gdisk-1.0.5.orig/cgdisk.8
++++ gdisk-1.0.5/cgdisk.8
+@@ -172,7 +172,7 @@ text editor.
+ 
+ Available options are as described below. (Note that \fBcgdisk\fR provides
+ a much more limited set of options than its sibling \fBgdisk\fR. If you
+-need to perform partition table recovery, hybrid MBR modifcation, or other
++need to perform partition table recovery, hybrid MBR modification, or other
+ advanced operations, you should consult the \fBgdisk\fR documentation.)
+ 
+ .TP 
